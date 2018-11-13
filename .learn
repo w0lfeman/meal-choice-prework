@@ -1,7 +1,4 @@
-languages:
-  - ruby
-tags:
-  - methods
-  - default arguments
-resources: 1
 
+def meal_choice(main = "meat")
+  puts main
+end
